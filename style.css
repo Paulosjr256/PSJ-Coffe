@@ -240,3 +240,125 @@
  .footer .share img:hover{
  background-color: #d3ad7f;
  }
+
+
+@media (max-width: 480px) {
+    :root {
+        font-size: 8px;
+        position:absolute;
+        /* Reduzindo o tamanho da fonte base */
+    }
+
+    section {
+        padding: 1rem;
+        /* Reduzindo o padding */
+        max-width: 100%;
+
+
+    }
+
+    .header section {
+        padding: 1rem;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+
+        /* Empilhando os elementos da header */
+    }
+
+    .navbar a {
+        font-size: 1.5rem;
+        /* Reduzindo o tamanho dos links do menu */
+        margin: 0.5rem;
+    }
+
+    .icons img {
+        width: 30px;
+        height: 30px;
+
+
+        /* Ajustando o tamanho dos ícones */
+    }
+
+
+    .home-container section {
+        flex-direction: column;
+        /* Reorganizando o layout da home */
+        padding: 1rem;
+        min-height: 65vh;
+
+
+        /* Diminuindo a altura mínima da home */
+
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+
+    .content h3 {
+        font-size: 2.8rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-top: 180px; /* Adiciona um espaço superior */
+        /* Ajustando tamanho do título */
+    }
+
+    .content p {
+        font-size: 1.8rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        /* Reduzindo o tamanho do parágrafo */
+    }
+
+    .box-container {
+        grid-template-columns: 1fr;
+        display: inline-flex;
+        align-items: center;
+
+/* Apenas uma coluna para caixas */
+    }
+    .about .row {
+        display: flex;
+        align-items: center;
+        background-color: var(--black);
+        gap: 1.5rem;
+
+    }
+
+    .about .row .content {
+        padding: 2rem;
+
+    }
+
+    .about .row .content h3 {
+        font-size: 2.8rem;
+        color: #fff;
+    }
+
+    .about .row .content p {
+        font-size: 1.8rem;
+        color: #fff;
+        padding: 1rem 0;
+        line-height: 1.8;
+    }
+
+    .menu .box-container .box {
+        padding: 2rem;
+        /* Reduzindo o padding das caixas do menu */
+    }
+
+    .review .box-container .box {
+        padding: 2rem;
+        /* Reduzindo o padding das caixas de review */
+    }
+
+    .footer .share h2 {
+        font-size: 2.5rem;
+        /* Reduzindo o tamanho do título no rodapé */
+    }
+}
