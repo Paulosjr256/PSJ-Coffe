@@ -73,6 +73,8 @@
  .icons img:hover{
      width: 40px;
      height: 40px;
+     color: var(--main-color);
+     background-color: var(--main-color);
  
  }
  .btn{
@@ -89,7 +91,7 @@
      letter-spacing:1rem ;
  }
  .home-container{
-     background: url(home-img.jpg);
+     background: url(./img/home-img.jpg);
      height: 100vh;
      background-position: center;
      background-size: cover;
